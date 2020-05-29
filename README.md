@@ -613,6 +613,9 @@ Some of the major difference in a tabular form
 5. An Object has a prototype, so there are default keys in the map that could collide with your keys if you're not careful. As of ES5 this can be bypassed by using map = Object.create(null), but this is seldom done.
 6. A Map may perform better in scenarios involving frequent addition and removal of key pairs.
 
+See Link : https://medium.com/front-end-weekly/es6-map-vs-object-what-and-when-b80621932373
+Map Object Details : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+
 **[⬆ Back to Top](#table-of-contents)**
 
 9. ### What is the difference between == and === operators?
@@ -645,6 +648,8 @@ null === undefined // false
 
 10. ### What are lambda or arrow functions?
 An arrow function is a shorter syntax for a function expression and does not have its own **this, arguments, super, or new.target**. These function are best suited for non-method functions, and they cannot be used as constructors.
+
+See Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 **[⬆ Back to Top](#table-of-contents)**
 
